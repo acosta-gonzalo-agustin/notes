@@ -6,7 +6,7 @@
     "start": "node index.js",
     "dev": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:ui": "shx rm -rf dist && cd \"phonebook-front\" && npm install && npm run build && shx cp -r dist ../",
+    "build:ui": "shx rm -rf dist && cd \"part2-notes-frontend\" && npm install && npm run build && shx cp -r dist ../",
     "deploy:full": "npm run build:ui && git add . && git commit -m 'build frontend' && git push"
   },
   "author": "Matti Luukkainen",
